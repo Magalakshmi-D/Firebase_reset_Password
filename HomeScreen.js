@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import {View,Text, TouchableOpacity} from 'react-native';
 import { signOut } from "firebase/auth";
 import { auth } from "./firebase/firebase.config";
-
+// new cmd 
 const HomeScreen=({navigation})=>{
     useEffect(()=>{
         console.log('You are entering home screen...........');
